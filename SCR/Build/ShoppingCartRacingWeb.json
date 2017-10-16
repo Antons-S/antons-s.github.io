@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "ShoppingCartRacingWeb.data.unityweb",
+"asmCodeUrl": "ShoppingCartRacingWeb.asm.code.unityweb",
+"asmMemoryUrl": "ShoppingCartRacingWeb.asm.memory.unityweb",
+"asmFrameworkUrl": "ShoppingCartRacingWeb.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
