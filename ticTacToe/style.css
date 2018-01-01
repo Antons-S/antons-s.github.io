@@ -1,0 +1,25 @@
+body{background:lightgray;}
+p{width:60px;
+	height:60px;
+	margin:0px;
+	border-style:solid;
+	border-width:1px;
+	background:khaki;
+}
+#main{
+	margin: 0 auto;
+	margin-top:80px;
+	width:180px;
+	height:180px;
+}
+.a,.b,.c{
+	width:60px;
+	height:180px;
+	float:left;
+}
+h3{
+	font-size:16px;
+}
+button{
+	margin-top:30px;
+}

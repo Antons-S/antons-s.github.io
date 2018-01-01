@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>List</title>
+    <link id="favicon" rel="icon" href="img/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <div id="main">
+		<h3 id="info">Turn: Player 1</h3>
+		<div class="a"><p class="cell" onClick="turn(0)"></p><p class="cell" onClick="turn(1)"></p><p class="cell" onClick="turn(2)"></p></div>
+		<div class="b"><p class="cell" onClick="turn(3)"></p><p class="cell" onClick="turn(4)"></p><p class="cell" onClick="turn(5)"></p></div>
+		<div class="c"><p class="cell" onClick="turn(6)"></p><p class="cell" onClick="turn(7)"></p><p class="cell" onClick="turn(8)"></p></div>
+		<hr>
+		<div id = "newRound"><button onClick ="newRound()">Restart</button></div>
+    </div>
+
+
+    <script src="client.js"></script>
+  </body>
+</html>
