@@ -8,6 +8,14 @@ body{
 	height:100%;
 	background-color:blue;		
 }
+a{
+	text-decoration:none;
+	color:#02002d;
+}
+p, h1{
+	text-shadow: 1px 1px #000000;
+	font-family: 'Montserrat', sans-serif;
+}
 #main{
 	width:100%;
 	margin: 0 auto;
@@ -26,17 +34,27 @@ body{
 	background-color:white;
 	text-align:right;
 	line-height:52px;
+	z-index:1000;
 }
-#menu{
+.menu{
 	margin-right:100px;
 }
-#menu a{		
-	text-decoration:none;
+
+.menu a{		
+	
 	margin: 20px;
 	float:center;
 	font-size:22px;
-	color:#02002d;
+	font-family: 'Montserrat', sans-serif;
 }
+.menu a:hover{
+	color:#FF8C00;
+}
+.active{
+	color:#FF8C00;
+	font-weight:bold;
+}
+
 #contentAbout{
 	width:100%;
 	height:490px;
@@ -62,8 +80,6 @@ body{
 }
 .gameList{
 overflow: hidden;
-
-
 }
 .gamesText{
 	width:100%;
@@ -75,12 +91,10 @@ overflow: hidden;
 }
 .game{
 	width:256px;
-	height:496px;
-	border: solid 1px white;
 	padding:20px;
 	margin:20px;
 	display:inline-block;
-	
+	background-color:rgba(0,0,0, 0.5);	
 }
 .game p{
 	margin: 20 0;
@@ -92,9 +106,8 @@ overflow: hidden;
 	display:inline;
 }
 .technologies .tech{
-	color:#ffa31a;
+	color:#FF8C00;
 }
-
 
 #contentOther{
 	width:100%;
@@ -112,7 +125,7 @@ overflow: hidden;
 }
 #contentContacts{
 	width:100%;
-	height:216px;
+	height:256px;
 	text-align:center;
 	background-color:rgba(255, 102, 0, 0.9);
 }
@@ -120,7 +133,7 @@ overflow: hidden;
 	width:100%;
 	color:white;
 	position:relative;
-	top:40%;
+	top:30%;
 }
 .contactsText h1{
 	font-size:26px;	
@@ -128,14 +141,12 @@ overflow: hidden;
 .contactsText a{
 	text-decoration:none;
 	color:white;
-
 }
-
 #footer{
 	width:100%;
-	height:112px;
+	height:156px;
 	text-align:center;
-	background-color:rgba(77,77,77, 0.5);
+	background-color:rgba(0,0,0, 0.5);
 }
 .footerText{
 	width:100%;
