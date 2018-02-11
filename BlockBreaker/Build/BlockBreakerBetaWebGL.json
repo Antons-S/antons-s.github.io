@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "BlockBreakerBetaWebGL.data.unityweb",
+"asmCodeUrl": "BlockBreakerBetaWebGL.asm.code.unityweb",
+"asmMemoryUrl": "BlockBreakerBetaWebGL.asm.memory.unityweb",
+"asmFrameworkUrl": "BlockBreakerBetaWebGL.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
